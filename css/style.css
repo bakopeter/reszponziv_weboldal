@@ -1,0 +1,33 @@
+h1 {
+    background-color: rgb(241, 241, 235);
+    text-align: center;
+    color: bisque;
+    padding: 20px;
+}
+
+/*PC valtozat*/
+img {
+    height: 50%;
+}
+
+/*Tablet valtozat*/
+@media only screen and (max-width: 960px) {
+    .card p {
+        background-color: darkolivegreen;
+        font-size: 1.5em;
+    }
+    .card h5 {
+        background-color: darkcyan;
+    }
+}
+
+/*Telefon valtozat*/
+@media only screen and (max-width: 720px) {
+    .card p {
+        background-color: darkcyan;
+        font-size: 2em;
+    }
+    .card h5 {
+        background-color: darkolivegreen;
+    }
+}
