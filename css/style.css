@@ -13,21 +13,21 @@ img {
 /*Tablet valtozat*/
 @media only screen and (max-width: 960px) {
     .card p {
-        background-color: darkolivegreen;
+        background-color: rgb(94, 208, 155);
         font-size: 1.5em;
     }
     .card h5 {
-        background-color: darkcyan;
+        background-color: rgb(114, 221, 251);
     }
 }
 
 /*Telefon valtozat*/
 @media only screen and (max-width: 720px) {
     .card p {
-        background-color: darkcyan;
+        background-color: rgb(114, 221, 251);
         font-size: 2em;
     }
     .card h5 {
-        background-color: darkolivegreen;
+        background-color: rgb(94, 208, 155);
     }
 }
